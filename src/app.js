@@ -5,10 +5,17 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 // create the part of the excuse generator
-var who = ["My dog", "My brother", "Darth Vader", "Voldemort"];
+var who = [
+  "My dog",
+  "My brother",
+  "Darth Vader",
+  "Voldemort",
+  "a crocodile",
+  "a snake"
+];
 var how = ["ate", "destroyed", "kidnapped"];
-var what = ["my homework", "my project", "my computer", "my keys"];
-var when = ["yesterday", "this morning", "two days ago"];
+var what = ["my homework", "my project", "my computer", "my keys", "my car"];
+var when = ["yesterday", "this morning", "two days ago", "a day ago"];
 //  var where = []
 
 // excuse function
