@@ -16,7 +16,7 @@ function generateExcuse() {
   let randomWho = Math.floor(Math.random() * who.length);
   let randomHow = Math.floor(Math.random() * how.length);
   let randomWhat = Math.floor(Math.random() * what.length);
-  let randomWhen = Math.floor(Math.random() * when.Length);
+  let randomWhen = Math.floor(Math.random() * when.length);
 
   return (
     who[randomWho] +
@@ -29,8 +29,7 @@ function generateExcuse() {
     ","
   );
 }
-
+document.getElementById("excuse").innerHTML = generateExcuse();
 window.onload = function() {
   console.log(generateExcuse());
 };
-
